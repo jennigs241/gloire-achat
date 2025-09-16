@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Boutique | Mode</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#" class="logo">Gloire<span>achat</span></a>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#" class="nav-link">Accueil</a>
+        <a href="#" class="nav-link">Femmes</a>
+        <a href="#" class="nav-link">Hommes</a>
+        <a href="#" class="nav-link">Accessoires</a>
+      </nav>
+
+      <div class="header-actions">
+        <input class="search" type="search" placeholder="Rechercher..." />
+        <a href="#" class="cart">🛒 <span class="cart-count">3</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>satisfaction et sécurité</h1>
+          <p>Livraison • Retours sous 30 jours</p>
+          <a href="#products" class="btn">Voir les produits</a>
+        </div>
+        <div class="hero-image">
+          <img src="/WhatsApp Image 2025-06-03 à 10.47.53_16b4d114.jpg" alt="Mode" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters container">
+      <div class="filter-group">
+        <label>Catégorie</label>
+        <select>
+          <option>Toutes</option>
+          <option>Robes</option>
+          <option>T-shirts</option>
+          <option>Pantalons</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label>Trier par</label>
+        <select>
+          <option>Populaire</option>
+          <option>Prix croissant</option>
+          <option>Prix décroissant</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label>Taille</label>
+        <div class="sizes">
+          <button class="size">S</button>
+          <button class="size">M</button>
+          <button class="size">L</button>
+          <button class="size">XL</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="container products-grid">
+      <!-- Product card (répéter pour chaque produit) -->
+      <article class="product-card">
+        <div class="product-media">
+          <img src="494857423_1449977889371252_6096619764983443939_n.jpg" alt="Pantalon noir" />
+          <div class="badge">Nouveau</div>
+        </div>
+        <div class="product-body">
+          <h3 class="product-title">pantalon noir</h3>
+          <p class="product-price">9500 cfa</p>
+          <p class="product-desc">Coton doux— Parfait pour des rdv chic.</p>
+          <div class="product-actions">
+            <a class="btn-outline" href="#">Voir</a>
+            <a class="btn" href="#">Ajouter au panier</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media">
+          <img src="/494858101_2519362148413698_5122156567881697525_n.jpg" alt="Robe" />
+        </div>
+        <div class="product-body">
+          <h3 class="product-title">Blazer marron </h3>
+          <p class="product-price">9500 cfa</p>
+          <p class="product-desc">laine fine — style decontracté.</p>
+          <div class="product-actions">
+            <a class="btn-outline" href="#">Voir</a>
+            <a class="btn" href="#">Ajouter au panier</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media">
+          <img src="/494857304_1224650365662721_4929843949169601889_n.jpg" alt="Jean" />
+        </div>
+        <div class="product-body">
+          <h3 class="product-title">Ensemble street garçon</h3>
+          <p class="product-price">14500cfa</p>
+          <p class="product-desc">Tissu léger Matière confortable .</p>
+          <div class="product-actions">
+            <a class="btn-outline" href="#">Voir</a>
+            <a class="btn" href="#">Ajouter au panier</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-media">
+          <img src="/494862627_1339749027094194_3244207773550307335_n.jpg" alt="Ensemble street fille" />
+        </div>
+        <div class="product-body">
+          <h3 class="product-title">Ensemble street fille</h3>
+          <p class="product-price">13500cfa</p>
+          <p class="product-desc">Cotton offrant confort et respirabilité.</p>
+          <div class="product-actions">
+            <a class="btn-outline" href="#">Voir</a>
+            <a class="btn" href="#">Ajouter au panier</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Ajoute autant de product-card que tu veux -->
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter container">
+      <h2>Inscris-toi à notre newsletter</h2>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Ton email" required />
+        <button class="btn" type="submit">S'abonner</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>À propos</h4>
+        <p>Gloire Achat votre satisfaction et sécurité.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Aide</h4>
+        <a href="#">Livraison</a>
+        <a href="#">Retours</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Suivez-nous</h4>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Pinterest</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2025 Gloire Achat</div>
+  </footer>
+</body>
+</html>
+
+</body>
+</html>
+
+</form>
+</body>
+</html>
